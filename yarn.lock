@@ -1176,9 +1176,9 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@grafana/data@7.5.1", "@grafana/data@^7.5.0":
+"@optikiss/data@7.5.1", "@optikiss/data@^7.5.0":
   version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@grafana/data/-/data-7.5.1.tgz#5cee5d105c3470eadf26e1780490bb097d963e54"
+  resolved "https://registry.yarnpkg.com/@optikiss/data/-/data-7.5.1.tgz#5cee5d105c3470eadf26e1780490bb097d963e54"
   integrity sha512-c8CBMGr++9gbovdoYMLLGEb8o2we+AE7CBqLOeT2n1E2bbGcpdjKRf0cVPvLmMKJE99pRQ6AVWh2dv40a9CBlA==
   dependencies:
     "@braintree/sanitize-url" "4.0.0"
@@ -1239,17 +1239,17 @@
     tiny-invariant "^1.0.1"
     tiny-warning "^0.0.3"
 
-"@grafana/toolkit@^7.5.1":
+"@optikiss/toolkit@^7.5.1":
   version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@grafana/toolkit/-/toolkit-7.5.1.tgz#7bdbdf84dccbaad3ed45c2b54887fa25fd58556c"
+  resolved "https://registry.yarnpkg.com/@optikiss/toolkit/-/toolkit-7.5.1.tgz#7bdbdf84dccbaad3ed45c2b54887fa25fd58556c"
   integrity sha512-xJvvgqM7bmRTlD+xenLVZ2epRM/txxM9vb25XPXfMuMqdhtg2cYmvcSe0NqsEwY8pEVfRh93UERBmBNBrWBLUg==
   dependencies:
     "@babel/core" "7.9.0"
     "@babel/preset-env" "7.9.0"
-    "@grafana/data" "7.5.1"
+    "@optikiss/data" "7.5.1"
     "@grafana/eslint-config" "2.3.0"
     "@grafana/tsconfig" "^1.0.0-rc1"
-    "@grafana/ui" "7.5.1"
+    "@optikiss/ui" "7.5.1"
     "@types/command-exists" "^1.2.0"
     "@types/execa" "^0.9.0"
     "@types/expect-puppeteer" "3.3.1"
@@ -1332,13 +1332,13 @@
   resolved "https://registry.yarnpkg.com/@grafana/tsconfig/-/tsconfig-1.0.0-rc1.tgz#d07ea16755a50cae21000113f30546b61647a200"
   integrity sha512-nucKPGyzlSKYSiJk5RA8GzMdVWhdYNdF+Hh65AXxjD9PlY69JKr5wANj8bVdQboag6dgg0BFKqgKPyY+YtV4Iw==
 
-"@grafana/ui@7.5.1", "@grafana/ui@^7.5.0":
+"@optikiss/ui@7.5.1", "@optikiss/ui@^7.5.0":
   version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@grafana/ui/-/ui-7.5.1.tgz#55160ec779c8601f9e39674a7acf0282e5ffdee4"
+  resolved "https://registry.yarnpkg.com/@optikiss/ui/-/ui-7.5.1.tgz#55160ec779c8601f9e39674a7acf0282e5ffdee4"
   integrity sha512-r9k8q1F4Z4XCejJSJr2D4S8I3rdgJ9nitnCirfeuE6TdJznoHx/oZrXhK42bvFLnd6sIO7ZhaH3DKz3A9hOe/A==
   dependencies:
     "@emotion/core" "10.0.27"
-    "@grafana/data" "7.5.1"
+    "@optikiss/data" "7.5.1"
     "@grafana/e2e-selectors" "7.5.1"
     "@grafana/slate-react" "0.22.9-grafana"
     "@grafana/tsconfig" "^1.0.0-rc1"
